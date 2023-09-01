@@ -11,7 +11,10 @@ class Interface:
 		self.root = root
 
 		# Create a text area
-		self.text = tk.Text()
+		self.text = tk.Text(bd = 0,
+					  		font = ("Consolas", 16),
+							
+							)
 		self.text.pack(padx = 0, pady = 0,
 				expand = 1, fill = tk.BOTH)
 
