@@ -4,11 +4,10 @@ from tkinter.filedialog import *
 import os
 
 class Interface:
-
-	__file = None
-
 	def __init__(self, root) -> None:
-		self.root = root
+		self.__file = None
+
+        self.root = root
 
 		# Create a text area
 		self.text = tk.Text(bd = 0,
