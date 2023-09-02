@@ -12,7 +12,7 @@ class Interface:
 
 		# Create a text area
 		self.text = tk.Text(bd = 0,
-					  		font = ("Consolas", 16),
+					  		font = ("Consolas", 13),
 							
 							)
 		self.text.pack(padx = 0, pady = 0,
