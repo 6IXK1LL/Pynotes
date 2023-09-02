@@ -5,9 +5,9 @@ import os
 
 class Interface:
 	def __init__(self, root) -> None:
-		self.__file = None
+		self.__file = None        	
 
-        self.root = root
+		self.root = root
 
 		# Create a text area
 		self.text = tk.Text(bd = 0,
