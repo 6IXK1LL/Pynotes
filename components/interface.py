@@ -61,7 +61,7 @@ class Interface:
 
 	def __saveasFile(self) -> None:
 		self.__file = asksaveasfilename(initialfile = "Untitled.txt",
-										defaultextension = ".txt",
+									defaultextension = ".txt",
 										filetypes=[("All Files", "*.*"),
 													("Text Documents", "*.txt")])
 		if self.__file == "":
